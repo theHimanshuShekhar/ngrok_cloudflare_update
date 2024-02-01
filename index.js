@@ -18,7 +18,7 @@ axios
     bhayanak_minecraft_url = "";
 
     response.data.tunnels.forEach((tunnel) => {
-      if (tunnel.forwards_to === "bhayanak_minecraft:25565")
+      if (tunnel.forwards_to === "localhost:25565")
         bhayanak_minecraft_url = tunnel.public_url;
     });
 
